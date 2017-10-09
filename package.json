@@ -4,13 +4,20 @@
   "description": "Develop Twine-based games without Twine, using SugarCube 2 and TweeGo.",
   "main": "index.js",
   "scripts": {
-    "build": "node build.js",
-    "watch": "nodemon -w src -e .* build.js"
+    "build": "gulp build",
+    "watch": "gulp watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^1.12.1"
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-minify": "^0.2.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-clean": "^0.3.2",
+    "gulp-sass": "^3.1.0",
+    "mkdirp": "^0.5.1"
   }
 }

@@ -1,0 +1,12 @@
+:: First Room
+
+You are in a room.
+
+You can pick up one of the following items:
+
+<<selectItems 2 'Picked Up Item'>>
+
+
+:: Picked Up Item
+
+You picked up the $item.
